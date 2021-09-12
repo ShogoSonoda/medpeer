@@ -14,7 +14,7 @@ class Api::V1::IdeasController < ApplicationController
   def index
     category_name = params[:category_name]
     if category_name != nil
-      if category = Category.find_by(name: category_name) != nil
+      if Category.find_by(name: category_name) != nil
         category_id = Category.find_by(name: category_name).id
         ideas = Idea.where(category_id: category_id)
         render json: ideas, each_serializer: IdeaSerializer, root: "data"
