@@ -9,6 +9,9 @@
 Google ChromeにあるTrend API Testerを用いてリクエストを送ります。  
 chrome-extension://aejoelaoggembcahagimdiliamlcdmfm/index.html
 
+## ER図
+<img width="592" alt="ER図" src="https://user-images.githubusercontent.com/67961499/132972196-6c1c99aa-63ce-4c38-9cdf-7a8c3a6d3984.png">
+
 ## アイデア登録API
 * 以下のようにリクエストを送ります。
 <img width="1626" alt="アイデア登録リクエスト" src="https://user-images.githubusercontent.com/67961499/132971457-4e6b6bcc-f855-4732-ba16-475da1b18d8d.png">
